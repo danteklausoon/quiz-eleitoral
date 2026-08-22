@@ -1,0 +1,27 @@
+# =====================================================================
+# Copie este arquivo para .env.local e complete a última linha.
+#
+#   Copy-Item ENV-EXEMPLO.txt .env.local
+#   notepad .env.local
+#
+# .env.local NUNCA vai para o Git (já está no .gitignore).
+# =====================================================================
+
+# URL do projeto — pode aparecer no navegador
+NEXT_PUBLIC_SUPABASE_URL=https://iihstmsupwhehvwedgbo.supabase.co
+
+# Chave publicável (publishable / anon) — pode aparecer no navegador.
+# Quem protege o banco é o RLS, não o segredo desta chave.
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_00L7pA0BZMNyB7IcnYt6Uw_c7USK9dg
+
+# ---------------------------------------------------------------------
+# CHAVE SECRETA — ignora todo o RLS.
+#
+# Pegue em: Supabase > Project Settings > API Keys > Secret keys
+# Ela começa com  sb_secret_
+#
+# Nunca use o prefixo NEXT_PUBLIC_ nesta linha.
+# Nunca cole esta chave em chat, e-mail, print ou repositório.
+# Se vazar, clique em "Revoke" na Supabase e gere outra.
+# ---------------------------------------------------------------------
+SUPABASE_SERVICE_ROLE_KEY=cole-aqui-a-chave-que-comeca-com-sb_secret_

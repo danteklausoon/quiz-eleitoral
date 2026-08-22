@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+
+  "//": "gru1 = São Paulo. O padrão da Vercel é iad1 (Washington), o que colocaria uma viagem de ida e volta às Américas entre a rota /api/sessao e o banco, que está em São Paulo. O plano Hobby permite uma região, e esta é a certa para o projeto.",
+  "regions": ["gru1"]
+}

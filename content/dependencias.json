@@ -1,0 +1,64 @@
+{
+  "_leia_me": "Perguntas adaptativas. Quando a pessoa responde 'resposta' na pergunta 'pai', a pergunta 'filho' entra na fila logo em seguida. resposta: 1 = SIM, 0 = NÃO, 2 = NÃO SEI.",
+  "dependencias": [
+    { "pai": "SEG-001", "resposta": 1, "filho": "SEG-101" },
+    { "pai": "SEG-002", "resposta": 1, "filho": "SEG-102" },
+    { "pai": "SEG-003", "resposta": 1, "filho": "SEG-103" },
+
+    { "pai": "SAU-001", "resposta": 1, "filho": "SAU-101" },
+    { "pai": "SAU-002", "resposta": 1, "filho": "SAU-102" },
+    { "pai": "SAU-003", "resposta": 1, "filho": "SAU-103" },
+
+    { "pai": "EDU-001", "resposta": 1, "filho": "EDU-101" },
+    { "pai": "EDU-002", "resposta": 1, "filho": "EDU-102" },
+    { "pai": "EDU-004", "resposta": 1, "filho": "EDU-103" },
+
+    { "pai": "ECO-001", "resposta": 1, "filho": "ECO-101" },
+    { "pai": "ECO-001", "resposta": 1, "filho": "ECO-102" },
+    { "pai": "ECO-003", "resposta": 1, "filho": "ECO-103" },
+
+    { "pai": "IMP-001", "resposta": 1, "filho": "IMP-101" },
+    { "pai": "IMP-002", "resposta": 1, "filho": "IMP-102" },
+    { "pai": "IMP-004", "resposta": 1, "filho": "IMP-103" },
+
+    { "pai": "EMP-001", "resposta": 1, "filho": "EMP-101" },
+    { "pai": "EMP-002", "resposta": 1, "filho": "EMP-102" },
+    { "pai": "EMP-005", "resposta": 1, "filho": "EMP-103" },
+
+    { "pai": "ASS-001", "resposta": 1, "filho": "ASS-101" },
+    { "pai": "ASS-002", "resposta": 1, "filho": "ASS-102" },
+    { "pai": "ASS-003", "resposta": 1, "filho": "ASS-103" },
+
+    { "pai": "INF-003", "resposta": 1, "filho": "INF-101" },
+    { "pai": "INF-002", "resposta": 1, "filho": "INF-102" },
+    { "pai": "INF-004", "resposta": 1, "filho": "INF-103" },
+
+    { "pai": "HAB-001", "resposta": 1, "filho": "HAB-101" },
+    { "pai": "HAB-002", "resposta": 1, "filho": "HAB-102" },
+    { "pai": "HAB-003", "resposta": 1, "filho": "HAB-103" },
+
+    { "pai": "AMB-001", "resposta": 1, "filho": "AMB-101" },
+    { "pai": "AMB-003", "resposta": 1, "filho": "AMB-102" },
+    { "pai": "AMB-002", "resposta": 1, "filho": "AMB-103" },
+
+    { "pai": "AGR-001", "resposta": 1, "filho": "AGR-101" },
+    { "pai": "AGR-003", "resposta": 1, "filho": "AGR-102" },
+    { "pai": "AGR-005", "resposta": 1, "filho": "AGR-103" },
+
+    { "pai": "TEC-001", "resposta": 1, "filho": "TEC-101" },
+    { "pai": "TEC-002", "resposta": 1, "filho": "TEC-102" },
+    { "pai": "TEC-005", "resposta": 1, "filho": "TEC-103" },
+
+    { "pai": "JUS-001", "resposta": 1, "filho": "JUS-101" },
+    { "pai": "JUS-002", "resposta": 1, "filho": "JUS-102" },
+    { "pai": "JUS-003", "resposta": 1, "filho": "JUS-103" },
+
+    { "pai": "DIR-001", "resposta": 1, "filho": "DIR-101" },
+    { "pai": "DIR-002", "resposta": 0, "filho": "DIR-102" },
+    { "pai": "DIR-003", "resposta": 1, "filho": "DIR-103" },
+
+    { "pai": "INT-001", "resposta": 1, "filho": "INT-101" },
+    { "pai": "INT-003", "resposta": 1, "filho": "INT-102" },
+    { "pai": "INT-002", "resposta": 1, "filho": "INT-103" }
+  ]
+}

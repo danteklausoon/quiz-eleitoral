@@ -1,0 +1,22 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Variáveis de ambiente — a service_role vive aqui. NUNCA versionar.
+.env
+.env.local
+.env*.local
+
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.supabase/
+
+# Cópia local dos pacotes do TSE (pesados, sempre podem ser baixados de novo)
+.cache-tse/
