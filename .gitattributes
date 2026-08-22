@@ -1,0 +1,27 @@
+# Normaliza as quebras de linha.
+#
+# Sem isto, o Git no Windows converte tudo para CRLF ao gravar em disco e
+# avisa em cada `git add` ("LF will be replaced by CRLF"). Pior: arquivos
+# escritos com LF aparecem como totalmente alterados no diff, mesmo sem
+# nenhuma mudança real de conteúdo.
+#
+# `eol=lf` mantém o repositório em LF, que é o que a Vercel e o Linux esperam.
+
+* text=auto eol=lf
+
+# Arquivos que o Git não deve tentar converter nem tratar como texto
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.woff binary
+*.woff2 binary
+
+# Scripts do Windows precisam de CRLF para funcionar
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
