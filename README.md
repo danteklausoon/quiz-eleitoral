@@ -412,3 +412,5 @@ regras do TSE para pesquisa de opinião.
 
 - [Portal de Dados Abertos do TSE — Candidatos 2026](https://dadosabertos.tse.jus.br/dataset/candidatos-2026)
 - Pacote usado pelo importador: `consulta_cand_2026.zip`
+#   q u i z - e l e i t o r a l  
+ 
